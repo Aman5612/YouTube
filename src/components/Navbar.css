@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+  .img {
+    display: none;
+  }
+}
+
+.HomeLogo {
+  color: white;
+  fill: currentcolor;
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .search-bar {
+    transform: translateY(18px);
+  }
+  .HomeLogo {
+    width: 90%;
+  }
+  .search-icon {
+    visibility: hidden;
+  }
+}
